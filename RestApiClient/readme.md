@@ -21,3 +21,7 @@
 
 * Microsoft.Extensions.Logging.Console
   * Logovani do Console (std out), v dockeru vidět v logu kontejneru
+
+### Poznámky k implementaci ###
+Pro zbuildění projektu je nutné mít nainstalované dotnet sdk  2.2 a vyssi - https://dotnet.microsoft.com/download/dotnet-core/2.2
+Při změnách konfigurace JSON souboru dát rebuild sln !
